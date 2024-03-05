@@ -1,69 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SARANYA G - Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Calculator</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Saranya G</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section id="about">
-        <h2>About Me</h2>
-        <p>
-            Hello! My name is Saranya G and I'm currently a third-year student pursuing a Bachelor's degree in Instrumentation Engineering.
-        </p>
-        <p>
-            I have a strong passion for technology, particularly in the field of instrumentation, where I find joy in designing and developing systems that play a crucial role in various industries. My academic journey has equipped me with a solid foundation in subjects like control systems, sensors and transducers, signal processing, and industrial automation.
-        </p>
-        <p>
-            Beyond my academic pursuits, I am actively involved in extracurricular activities related to my field. I have participated in several projects where I collaborated with fellow students to design and implement innovative solutions. These experiences have not only enhanced my technical skills but also improved my teamwork and project management abilities.
-        </p>
-        <p>
-            In addition to my technical skills, I am a lifelong learner who is always eager to explore new technologies and stay updated with the latest advancements in the field of instrumentation engineering. I am enthusiastic about applying my knowledge to real-world problems and making a meaningful contribution to society.
-        </p>
-        <p>
-            Outside of academics, I enjoy to play. These activities help me maintain a balanced lifestyle and cultivate creativity and problem-solving skills that are beneficial in both personal and professional aspects of life.
-        </p>
-    </section>
-    
-
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project 1">
-            <h3>Door Lock System</h3>
-            <p>our state-of-the-art Door Lock System, a cutting-edge security solution blending advanced technology with convenience. Our system, powered by Arduino, employs robust authentication methods like biometrics or RFID, ensuring secure access control. With real-time monitoring capabilities and remote access features, users can manage entry permissions effortlessly from anywhere. Its sleek design and seamless integration with existing infrastructure make installation a breeze. Whether for residential or commercial use, our Door Lock System prioritizes safety without compromising convenience. Join us in redefining security standards with our innovative approach, providing peace of mind and convenience for all.</p>
-        </div>
-        <div class="project 2">
-            <h3>Blind Stick using Arduino</h3>
-            <p>Arduino-powered Blind Stick, a groundbreaking assistive device for the visually impaired. Combining state-of-the-art IR sensor technology with an Arduino microcontroller, this compact tool detects obstacles in real-time, providing immediate auditory feedback to users. Lightweight and user-friendly, our Blind Stick enhances mobility and safety, empowering individuals to navigate with confidence in diverse environments. Its customizable features and seamless integration exemplify our commitment to innovation in assistive technology, ensuring greater independence and inclusivity for all. Join us in revolutionizing accessibility and fostering a world where everyone can navigate with ease and dignity.</p>
-        </div>
-        <!-- Add more projects as needed -->
-    </section>
-
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <form id="contactForm">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <button type="submit">Submit</button>
-        </form>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 Saranya G</p>
-    </footer>
-
-    <script src="script.js"></script>
+  <div class="calculator">
+    <input type="text" id="display" disabled>
+    <div class="buttons">
+      <button onclick="appendToDisplay('7')">7</button>
+      <button onclick="appendToDisplay('8')">8</button>
+      <button onclick="appendToDisplay('9')">9</button>
+      <button onclick="appendToDisplay('/')">/</button>
+      <button onclick="appendToDisplay('4')">4</button>
+      <button onclick="appendToDisplay('5')">5</button>
+      <button onclick="appendToDisplay('6')">6</button>
+      <button onclick="appendToDisplay('*')">*</button>
+      <button onclick="appendToDisplay('1')">1</button>
+      <button onclick="appendToDisplay('2')">2</button>
+      <button onclick="appendToDisplay('3')">3</button>
+      <button onclick="appendToDisplay('-')">-</button>
+      <button onclick="appendToDisplay('0')">0</button>
+      <button onclick="appendToDisplay('.')">.</button>
+      <button onclick="calculate()">=</button>
+      <button onclick="appendToDisplay('+')">+</button>
+      <button onclick="clearDisplay()">C</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
+ 
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+ 
+ 
